@@ -115,6 +115,8 @@ table td:nth-child(3) {
 .form-grop label {
   display: block;
   color: #86898f;
+  margin-left: 20px;
+
 }
 .form-grop input,
 .form-grop textarea {
@@ -128,6 +130,7 @@ table td:nth-child(3) {
   outline-color: #86898f;
   font-family: inherit;
 }
+
 .row {
   display: flex;
   margin-bottom: 20px;
