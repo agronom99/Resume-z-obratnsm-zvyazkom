@@ -26,16 +26,17 @@ body {
   font-style: italic;
 }
 
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+
+}
 @media(max-width:700px){
 .info{
     display: block;
     text-align: center;
 }
-}
-.info {
-  margin-bottom: 20px;
-  display: flex;
-
 }
 .info-1{
 margin-left: 40px;
@@ -150,8 +151,8 @@ table td:nth-child(3) {
 }
 
 .position{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
     /* background: darkcyan; */
     position: fixed;
