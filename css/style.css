@@ -1,0 +1,160 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  /* font-size: 14px;
+    font-size: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif; */
+  font: 700 14px Georgia, "Times New Roman", Times, serif;
+}
+.conteiner {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 30px;
+}
+.foto {
+  width: 200px;
+  border-radius: 90px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+}
+
+@media(max-width:700px){
+.info{
+    display: block;
+    text-align: center;
+}
+}
+.info {
+  margin-bottom: 20px;
+  display: flex;
+
+}
+.info-1{
+margin-left: 40px;
+}
+.info-1 h4{
+    margin-bottom: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+  text-decoration: line-through;
+}
+a:active {
+  color: red;
+}
+a:visited {
+  color: orange;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.card h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-green h2 {
+  text-align: center;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+table td:nth-child(3) {
+  color: #86898f;
+}
+.table th {
+  text-align: left;
+}
+/* .table tr:nth-child(odd){
+    background: red;
+} */
+
+.list-yo li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #3ccc;
+}
+.contakt h2 {
+  text-align: center;
+}
+.form-grop label {
+  display: block;
+  color: #86898f;
+}
+.form-grop input,
+.form-grop textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline-color: #86898f;
+  font-family: inherit;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-grop {
+  width: 50%;
+  margin-right: 20px;
+}
+.btn{
+    background: darkcyan;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    /* color: black; */
+    opacity: 0.5;
+}
+
+.position{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    /* background: darkcyan; */
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
